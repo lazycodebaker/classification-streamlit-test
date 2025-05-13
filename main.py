@@ -6,6 +6,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier
 
+REQUIREMENTS_FILE = "requirements.txt"
+
 # Set page configuration
 st.set_page_config(page_title="Store and Product Classifier", layout="centered")
 
